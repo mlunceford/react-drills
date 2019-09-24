@@ -4,8 +4,7 @@ export default class Image extends Component {
   render() {
     return (
       <div>
-        <img src={this.props.url} />
-        <caption>Error 599</caption>
+        <img src={this.props.myImage} alt='wb'/>
       </div>
     )
   }
